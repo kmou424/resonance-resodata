@@ -23,7 +23,7 @@ def main():
         if isinstance(ele, dict):
             json_data.append(ele)
 
-    sorted_data = sorted(json_data, key=lambda x: pinyin(x.get('name'), style=Style.NORMAL))
+    sorted_data = sorted(json_data, key=lambda x: pinyin(x.get(args.sort_key), style=Style.NORMAL))
 
     grouped_data = defaultdict(list)
     for item in sorted_data:
