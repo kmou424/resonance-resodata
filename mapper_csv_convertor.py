@@ -12,6 +12,8 @@ def load_json(file_path):
 def process_json(data):
     result = []
     for item in data:
+        if isinstance(item, str):
+            continue
         result.append('_'.join([item['station'], item['name']]))
     return result
 
