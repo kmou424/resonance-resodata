@@ -18,10 +18,14 @@ def main():
         json_data_str = file.read()
     parsed_json_data = json.loads(json_data_str)
 
+    existed_keys = []
     json_data = []
     for ele in parsed_json_data:
         if isinstance(ele, dict):
+            if ele['id'] in existed_keys:
+                continue
             json_data.append(ele)
+            existed_keys.append(ele['id'])
 
     sorted_data = sorted(json_data, key=lambda x: pinyin(x.get(args.sort_key), style=Style.NORMAL))
 
