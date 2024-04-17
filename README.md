@@ -1,5 +1,7 @@
 # 雷索纳斯 商品数据 API
 
+![ResoData API](https://healthchecks.io/b/2/87bd357a-8ba7-4a98-a89d-5de75054a15f.svg)
+
 来自索思学会的神秘情报商人研制的奇怪API。通过调用这个API，能够获得一些包含商品信息的数据，似乎是交易所的物品价格和趋势？
 
 ## 接口地址
