@@ -41,6 +41,7 @@
 - [x] 澄明数据中心
 - [x] 阿妮塔战备工厂（需要lv.40的情报员）（Thanks [@bw0963](https://github.com/bw0963)）
 - [x] 阿妮塔能源研究所
+- [x] 阿妮塔发射中心（Thanks [@bw0963](https://github.com/bw0963)）
 - [x] 荒原站
 - [x] 曼德矿场
 - [x] 淘金乐园
